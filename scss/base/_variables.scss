@@ -1,0 +1,18 @@
+
+// 
+$primary-color: #2563eb;
+$background-color: #f3f6fb;
+$text-color: #333;
+
+$border-radius: 15px;
+
+$font-main: Arial, sans-serif;
+
+// mixing
+
+@mixin shadow-card {
+
+box-shadow:
+0 5px 15px rgba(0,0,0,.15);
+
+}

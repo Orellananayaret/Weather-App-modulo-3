@@ -1,0 +1,28 @@
+@import "../base/variables";
+
+
+.weather-app {
+
+min-height:100vh;
+background:$background-color;
+font-family:$font-main;
+
+
+&__content {
+
+padding-top:40px;
+padding-bottom:40px;
+
+}
+
+
+&__footer {
+
+background:$primary-color;
+color:white;
+text-align:center;
+padding:20px;
+
+}
+
+}
